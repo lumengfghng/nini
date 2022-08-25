@@ -105,9 +105,7 @@ def get_tianhang():
             chp = ""
     except KeyError:
         chp = ""
-    return chp
-
-def get_tianhang():
+    
     try:
         key = config["tian_api"]
         url = "http://api.tianapi.com/one/index?key={}".format(key)
@@ -124,9 +122,7 @@ def get_tianhang():
             one = ""
     except KeyError:
         one = ""
-    return one
-
-def get_tianhang():
+  
     try:
         key = config["tian_api"]
         url = "http://api.tianapi.com/joke/index?key={}".format(key)
@@ -143,9 +139,7 @@ def get_tianhang():
             joke = ""
     except KeyError:
        joke = ""
-    return joke
-
-def get_tianhang():
+ 
     try:
         key = config["tian_api"]
         url = "http://api.tianapi.com/dujitang/index?key={}".format(key)
@@ -162,9 +156,7 @@ def get_tianhang():
             dujitang = ""
     except KeyError:
         dujitang = ""
-    return dujitang
-
-def get_tianhang():
+  
     try:
         key = config["tian_api"]
         url = "http://api.tianapi.com/zaoan/index?key={}".format(key)
@@ -181,9 +173,7 @@ def get_tianhang():
             zaoan = ""
     except KeyError:
        zaoan = ""
-    return zaoan
-
-def get_tianhang():
+ 
     try:
         key = config["tian_api"]
         url = "http://api.tianapi.com/wanan/index?key={}".format(key)
@@ -200,7 +190,7 @@ def get_tianhang():
             wanan = ""
     except KeyError:
         wanan = ""
-    return wanan
+    return chp,zaoan,wanan,dujitang,one,jokr
 
 def get_ciba():
     url = "http://open.iciba.com/dsapi/"
