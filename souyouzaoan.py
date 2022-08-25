@@ -107,7 +107,7 @@ def get_tianhang():
         chp = ""
     return chp
 
-
+def get_tianhang():
     try:
         key = config["tian_api"]
         url = "http://api.tianapi.com/one/index?key={}".format(key)
@@ -126,7 +126,7 @@ def get_tianhang():
         one = ""
     return one
 
-
+def get_tianhang():
     try:
         key = config["tian_api"]
         url = "http://api.tianapi.com/joke/index?key={}".format(key)
@@ -145,7 +145,7 @@ def get_tianhang():
        joke = ""
     return joke
 
-
+def get_tianhang():
     try:
         key = config["tian_api"]
         url = "http://api.tianapi.com/dujitang/index?key={}".format(key)
@@ -164,7 +164,7 @@ def get_tianhang():
         dujitang = ""
     return dujitang
 
-
+def get_tianhang():
     try:
         key = config["tian_api"]
         url = "http://api.tianapi.com/zaoan/index?key={}".format(key)
@@ -183,7 +183,7 @@ def get_tianhang():
        zaoan = ""
     return zaoan
 
-
+def get_tianhang():
     try:
         key = config["tian_api"]
         url = "http://api.tianapi.com/wanan/index?key={}".format(key)
