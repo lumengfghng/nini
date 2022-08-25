@@ -190,7 +190,7 @@ def get_tianhang():
             wanan = ""
     except KeyError:
         wanan = ""
-    return chp,zaoan,wanan,dujitang,one,jokr
+    return chp,zaoan,wanan,dujitang,one,joke
 
 def get_ciba():
     url = "http://open.iciba.com/dsapi/"
@@ -206,7 +206,7 @@ def get_ciba():
 
 
 def send_message(to_user, access_token, region_name, weather, temp, wind_dir, note_ch, note_en, max_temp, min_temp,
-                 sunrise, sunset, category, pm2p5, proposal, chp,zaoan,wanan,dujitang,one,jokr):
+                 sunrise, sunset, category, pm2p5, proposal, chp,zaoan,wanan,dujitang,one,joke):
     url = "https://api.weixin.qq.com/cgi-bin/message/template/send?access_token={}".format(access_token)
     week_list = ["星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"]
     year = localtime().tm_year
@@ -378,5 +378,5 @@ if __name__ == "__main__":
     # 公众号推送消息
     for user in users:
         send_message(user, accessToken, region, weather, temp, wind_dir, note_ch, note_en, max_temp, min_temp, sunrise,
-                     sunset, category, pm2p5, proposal, chp,zaoan,wanan,dujitang,one,jokr)
+                     sunset, category, pm2p5, proposal, chp,zaoan,wanan,dujitang,one,joke)
     os.system("pause")
