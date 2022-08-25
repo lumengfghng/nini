@@ -5,9 +5,9 @@
 # 公众号appSecret
 "app_secret": "92e66990bc50164ed223efe7e202ee6e",
 # 模板消息id
-"template_id": "ZrqlQms5WMjNbVnjEwdZo90jxZaHBHxrWZP0MTwmMa4",
+"template_id": "HxMTOLIUmHtWn_qeXZkG03lC_7qtgBZ0MK116Rt6elw",
 # 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如["wx1", "wx2"]
-"user": ["omJ0m6E11hDbR8x55_iEvvBbalFs","omJ0m6JZkEoxMC-PO4dTTB9-1G9E","omJ0m6IJf83Mv2imXNgOT47rh89M"],
+"user": ["omJ0m6E11hDbR8x55_iEvvBbalFs","omJ0m6GCdQKBWeU9YBfAMldg47MM"],
 
 # 信息配置
 # 和风天气apikey
@@ -15,13 +15,11 @@
 # 天行数据apikey
 "tian_api": "910b0352073749d1faa4cc4044edbc5e ",
 # 所在地区，可为省，城市，区，县，同时支持国外城市，例如伦敦(国外城市可能获取不到pm2.5，空气质量，今日建议等数据)
-"region": "苍南县",
+"region": "天水市",
 # 生日1
-"birthday1": {"name": "距离的姐姐生日还有", "birthday": "r1993-03-10"},
+"birthday1": {"name": "距离小妮子的生日还有", "birthday": "12005-08-24"},
 # 生日2
-"birthday2": {"name": "距离姐夫的生日还有 ", "birthday": "2022-06-06"},
-"birthday3": {"name": "距离的谦行生日还有", "birthday": "r1993-03-10"},
-"birthday4": {"name": "距离的晟晟生日还有", "birthday": "r1993-03-10"},
+"birthday2": {"name": " ", "birthday": "2001-06-06"},
 # 在一起的日子，格式同上
 "love_date": "2022-08-08",
 # 金句中文，如果为空，默认会读取金山的每日金句
