@@ -1,4 +1,4 @@
-name: weixin
+name: game
 on:
   workflow_dispatch:
   schedule: 
@@ -23,6 +23,6 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip3 install -r requirements.txt
-      - name: weixin
+      - name: game
         run: |
           python3 main.py
