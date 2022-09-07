@@ -1,3 +1,0 @@
-requests==2.28.1
-zhdate==0.1
-werobot==1.13.1
